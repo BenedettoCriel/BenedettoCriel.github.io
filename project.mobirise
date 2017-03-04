@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Benedetto_Work_Overview1.2",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -113,7 +113,7 @@
               "size": 250
             }
           },
-          "title": "<i>Benedetto Criel</i>",
+          "title": "<i style=\"font-weight: normal;\">Benedetto Criel</i>",
           "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_styles": {
@@ -122,6 +122,10 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
               "font-size": "100px",
               "color": "#000000"
+            },
+            ".mbr-section-title I": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           }
         }
@@ -214,7 +218,7 @@
           "_styles": {
             ".mbr-section-text": {
               "color": "#000000",
-              "font-size": "15px",
+              "font-size": "18px",
               "text-align": "right"
             },
             ".mbr-section-title": {
@@ -222,6 +226,14 @@
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
               "font-size": "84px"
+            },
+            ".mbr-section-title I": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".btn": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_anchor": "header2-6",
@@ -280,7 +292,9 @@
           "_styles": {
             "LI": {
               "color": "#000000",
-              "text-align": "center"
+              "text-align": "center",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_params": {
@@ -526,6 +540,10 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_name": "ext.menu",
@@ -578,9 +596,13 @@
             },
             "STRONG": {
               "color": "#000000",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
               "font-size": "19px"
+            },
+            "I": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_anchor": "contacts1-8",
@@ -612,9 +634,9 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>Criel Benedetto<br>Rabotstraat 24, 9940 Evergem<br>",
-          "text2": "<strong>Contacts</strong><br>\nEmail: benedetto.criel@luca-arts.be Phone: +05697446585<br><br>",
-          "text3": "<p><strong>Links</strong><br><a href=\"https://www.instagram.com/benedetto_criel/\" target=\"_blank\" class=\"text-black\">Instagram&nbsp;</a><br><a href=\"http://scumandvillainy.deviantart.com/\" target=\"_blank\" class=\"text-black\">Deviantart</a></p><p><a href=\"https://www.facebook.com/benedetto.criel\" target=\"_blank\" class=\"text-black\">Facebook</a></p>"
+          "text1": "<i>Address</i><br>Criel Benedetto<br>Rabotstraat 24, 9940 Evergem<br>",
+          "text2": "<i>Contacts</i><br>\nEmail: benedetto.criel@luca-arts.be Phone: +05697446585<br><br>",
+          "text3": "<p><i>Links</i><br><a href=\"https://www.instagram.com/benedetto_criel/\" target=\"_blank\" class=\"text-black\">Instagram&nbsp;</a><br><a href=\"http://scumandvillainy.deviantart.com/\" target=\"_blank\" class=\"text-black\">Deviantart</a></p><p><a href=\"https://www.facebook.com/benedetto.criel\" target=\"_blank\" class=\"text-black\">Facebook</a></p>"
         }
       ]
     },
@@ -628,7 +650,9 @@
           "_inherit": "header1",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#efefef"
+              "color": "#efefef",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             },
             ".mbr-section-lead": {
               "color": "#9c9a9a"
@@ -743,6 +767,10 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_name": "ext.menu",
@@ -795,9 +823,13 @@
             },
             "STRONG": {
               "color": "#000000",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
               "font-size": "19px"
+            },
+            "I": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_anchor": "contacts1-b",
@@ -829,9 +861,9 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>Criel Benedetto<br>Rabotstraat 24, 9940 Evergem<br>",
-          "text2": "<strong>Contacts</strong><br>\nEmail: benedetto.criel@luca-arts.be Phone: +05697446585<br><br>",
-          "text3": "<p><strong>Links</strong><br><a href=\"https://www.instagram.com/benedetto_criel/\" target=\"_blank\" class=\"text-black\">Instagram&nbsp;</a><br><a href=\"http://scumandvillainy.deviantart.com/\" target=\"_blank\" class=\"text-black\">Deviantart</a></p><p><a href=\"https://www.facebook.com/benedetto.criel\" target=\"_blank\" class=\"text-black\">Facebook</a></p>"
+          "text1": "<i>Address</i><br>Criel Benedetto<br>Rabotstraat 24, 9940 Evergem<br>",
+          "text2": "<i>Contacts</i><br>\nEmail: benedetto.criel@luca-arts.be Phone: +05697446585<br><br>",
+          "text3": "<p><i>Links</i><br><a href=\"https://www.instagram.com/benedetto_criel/\" target=\"_blank\" class=\"text-black\">Instagram&nbsp;</a><br><a href=\"http://scumandvillainy.deviantart.com/\" target=\"_blank\" class=\"text-black\">Deviantart</a></p><p><a href=\"https://www.facebook.com/benedetto.criel\" target=\"_blank\" class=\"text-black\">Facebook</a></p>"
         }
       ]
     }
