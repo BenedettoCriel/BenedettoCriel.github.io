@@ -86,7 +86,7 @@
             "overlayOpacity": "0.8",
             "overlayColor": "#c6cac4",
             "inverse": false,
-            "showTitle": false,
+            "showTitle": true,
             "showText": false,
             "showButtons": false,
             "showArrow": false
@@ -113,9 +113,17 @@
               "size": 250
             }
           },
-          "title": "INTRO WITH IMAGE",
+          "title": "<i>Benedetto Criel</i>",
           "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "100px",
+              "color": "#000000"
+            }
+          }
         }
       ]
     },
