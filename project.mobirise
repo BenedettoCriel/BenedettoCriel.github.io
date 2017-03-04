@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Benedetto_Work_Overview1.2",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -50,7 +50,7 @@
             "imageSize": "40",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/treinblauw-2000x1171.png",
+            "bgImage": "@PROJECT_PATH@/assets/images/treinrood-2000x1423.png",
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
