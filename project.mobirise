@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Benedetto_Work_Overview1.2",
-    "currentPage": "Home.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -1181,7 +1181,7 @@
         }
       ]
     },
-    "Home.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "",
