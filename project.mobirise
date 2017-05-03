@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Benedetto_Work_Overview1.2",
-    "currentPage": "page2.html",
+    "currentPage": "Home.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -24,113 +24,12 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 15,
+    "uniqCompNum": 24,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
   "pages": {
-    "index.html": {
-      "settings": {
-        "main": true,
-        "title": "",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_styles": {
-            "P": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "footer1-3",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#c6cac4",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Benedetto Criel."
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header2",
-          "_anchor": "header2-e",
-          "_params": {
-            "imageSize": "44",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/treinblauw-2000x1171.png",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.8",
-            "overlayColor": "#c6cac4",
-            "inverse": false,
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "showArrow": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/logos-1400x1648.png",
-              "link": "page1.html",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "<i style=\"font-weight: normal;\">Benedetto Criel</i>",
-          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "100px",
-              "color": "#000000"
-            },
-            ".mbr-section-title I": {
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
-            }
-          }
-        }
-      ]
-    },
     "page1.html": {
       "settings": {
         "title": "Web Page Creator Title",
@@ -144,7 +43,9 @@
           "_name": "footer1",
           "_styles": {
             "P": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             }
           },
           "_anchor": "footer1-4",
@@ -154,7 +55,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#c6cac4",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -198,9 +99,9 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#c1c1c1",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
@@ -211,6 +112,473 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         },
         {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "24px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-7",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Raleway",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "css": "'Raleway', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logos2-90x128-2.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Benedetto Criel</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Over.html\">Over</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Werk.html\">Werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Contact.html\">Contact</a></li>"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#efefef",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-c",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/-mg-2000x1333.jpg",
+            "bgColor": "#7e9b9f",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "AIR! AIR! AIR! AIRPLANES!",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          },
+          "_anchor": "footer1-9",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Benedetto Criel."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "24px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-a",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Raleway",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "css": "'Raleway', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logos2-90x128-2.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Benedetto Criel</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Over.html\">Over</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Werk.html\">Werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Contact.html\">Contact</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "font-size": "15px"
+            },
+            "STRONG": {
+              "color": "#000000",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "19px"
+            },
+            "I": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "_anchor": "contacts1-b",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/treinblauw-2000x1171.png",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#ffffff"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logos2-128x181.png",
+              "width": 128,
+              "active": true,
+              "link": "#top",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<i>Address</i><br>Criel Benedetto<br>Rabotstraat 24, 9940 Evergem<br>",
+          "text2": "<i>Contacts</i><br>\nEmail: benedetto.criel@luca-arts.be Phone: +05697446585<br><br>",
+          "text3": "<p><i>Links</i><br><a href=\"https://www.instagram.com/benedetto_criel/\" target=\"_blank\" class=\"text-black\">Instagram&nbsp;</a><br><a href=\"http://scumandvillainy.deviantart.com/\" target=\"_blank\" class=\"text-black\">Deviantart</a></p><p><a href=\"https://www.facebook.com/benedetto.criel\" target=\"_blank\" class=\"text-black\">Facebook</a></p>"
+        }
+      ]
+    },
+    "Over.html": {
+      "settings": {
+        "title": "over",
+        "meta_descr": "Site Maker Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          },
+          "_anchor": "footer1-f",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Benedetto Criel."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "24px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-a",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Raleway",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "css": "'Raleway', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logos2-90x128-2.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Benedetto Criel</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Over.html\">Over</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Werk.html\">Werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Contact.html\">Contact</a></li>"
+        },
+        {
           "_tags": [
             "Theme"
           ],
@@ -219,7 +587,7 @@
             ".mbr-section-text": {
               "color": "#000000",
               "font-size": "18px",
-              "text-align": "right"
+              "text-align": "center"
             },
             ".mbr-section-title": {
               "color": "#000000",
@@ -229,20 +597,21 @@
             },
             ".mbr-section-title I": {
               "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "text-align": "center"
             },
             ".btn": {
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
-          "_anchor": "header2-6",
+          "_anchor": "header2-i",
           "_params": {
-            "imageSize": "34",
+            "imageSize": "24",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "bgColor": "#eceeeb",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -282,6 +651,142 @@
           "title": "<i style=\"font-weight: normal;\">Over</i>:",
           "text": "Benedetto Criel (Gent, 1995°) leeft en werkt in Evergem Belzele.<br>Hij is afgestudeerd aan Sint-Lucas Secundair onderwijs en is momenteel student in Luca School of Arts.<br>Zijn werk is een zelfstudie naar het technische en constructief begrijpen van objecten. Het werk toont de dualiteit van het serieuze en het kinderlijke door imperfectie en een nonchalance toe te laten in het werk. De voornamelijkste thema’s die hij gebruikt is transport, Zee- en luchtvaart. De werken variëren van 2 tot 3 dimensionale werken waarbij papier karton de voornamelijkste materialen zijn.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Fascinatie Vliegtuigen</a>"
+        }
+      ]
+    },
+    "Werk.html": {
+      "settings": {
+        "title": "Website Builder Title",
+        "meta_descr": "Website Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          },
+          "_anchor": "footer1-j",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Benedetto Criel."
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "24px"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Raleway', sans-serif"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-a",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Raleway",
+              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "css": "'Raleway', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logos2-90x128-2.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Benedetto Criel</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Over.html\">Over</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Werk.html\">Werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Contact.html\">Contact</a></li>"
         },
         {
           "_inherit": "gallery1",
@@ -316,8 +821,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bristol-dehavilland-dh-2000x1322-800x528.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bristol-dehavilland-dh-2000x1322.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bristol-dehavilland-dh-2000x1322-800x528-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bristol-dehavilland-dh-2000x1322-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -326,8 +831,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bristolmopt-2000x893-800x357.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bristolmopt-2000x893.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bristolmopt-2000x893-800x357-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bristolmopt-2000x893-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -336,8 +841,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/crashopt-2000x3581-800x1432.jpg",
-                "image": "@PROJECT_PATH@/assets/images/crashopt-2000x3581.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/crashopt-2000x3581-800x1432-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/crashopt-2000x3581-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -366,8 +871,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mg-2000x2635-800x1054.jpg",
-                "image": "@PROJECT_PATH@/assets/images/-mg-2000x2635.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mg-2000x2635-800x1054-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-mg-2000x2635-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -376,8 +881,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bristolopt-2000x1434-800x573.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bristolopt-2000x1434.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bristolopt-2000x1434-800x573-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bristolopt-2000x1434-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -386,8 +891,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/grafzepopt-2000x1125-800x450.jpg",
-                "image": "@PROJECT_PATH@/assets/images/grafzepopt-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/grafzepopt-2000x1125-800x450-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/grafzepopt-2000x1125-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -396,8 +901,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kodakopt-2000x3522-800x1408.jpg",
-                "image": "@PROJECT_PATH@/assets/images/kodakopt-2000x3522.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kodakopt-2000x3522-800x1408-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kodakopt-2000x3522-1.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -466,8 +971,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/zewwateropt-2000x1147-800x458.jpg",
-                "image": "@PROJECT_PATH@/assets/images/zewwateropt-2000x1147.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/zewwateropt-2000x1147-800x458-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/zewwateropt-2000x1147-2.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -475,14 +980,49 @@
             "spacing": "1",
             "showText": false,
             "filter": true,
-            "bgColor": "#efefef",
+            "bgColor": "#ffffff",
             "filterBgColor": false,
             "fullWidth": true,
             "showBullets": false
           },
-          "_anchor": "gallery4-d",
+          "_anchor": "gallery4-l",
           "articleLayout": false,
           "allItem": "alles"
+        }
+      ]
+    },
+    "Contact.html": {
+      "settings": {
+        "title": "Web Site Maker Title",
+        "meta_descr": "Web Site Maker Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#000000",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            }
+          },
+          "_anchor": "footer1-m",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Benedetto Criel."
         },
         {
           "_inherit": "menu",
@@ -495,18 +1035,18 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
               "font-size": "24px"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
+              "color": "#000000",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
               "font-family": "'Raleway', sans-serif"
             },
@@ -520,16 +1060,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#acb2a9"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#bec3bc!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#c6cac4"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -542,21 +1082,22 @@
               "color": "#c0a375!important"
             },
             ".btn": {
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "13px"
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-7",
+          "_anchor": "ext_menu-a",
           "_params": {
-            "bgColor": "#c6cac4",
+            "bgColor": "#ffffff",
             "fontSize": "1",
             "fontName": {
               "name": "Raleway",
               "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
               "css": "'Raleway', sans-serif"
             },
-            "fontColor": "#ffffff",
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
             "transparent": false,
             "sticky": true,
@@ -581,8 +1122,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Benedetto Criel</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"page1.html#header2-6\">Over</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"page1.html#gallery4-d\">Werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"page1.html#contacts1-8\">Contact</a></li>"
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Benedetto Criel</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Over.html\">Over</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Werk.html\">Werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"Contact.html\">Contact</a></li>"
         },
         {
           "_tags": [
@@ -605,15 +1146,15 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
-          "_anchor": "contacts1-8",
+          "_anchor": "contacts1-k",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/treinblauw-2000x1171.png",
             "bgColor": "#ffffff",
-            "bgColorRadio": false,
+            "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": "0.7",
             "overlayColor": "#ffffff"
@@ -640,52 +1181,16 @@
         }
       ]
     },
-    "page2.html": {
+    "Home.html": {
       "settings": {
-        "title": "Web Builder Title",
-        "meta_descr": "Web Builder Description"
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
       },
       "components": [
-        {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#efefef",
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
-            },
-            ".mbr-section-lead": {
-              "color": "#9c9a9a"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header5",
-          "_anchor": "header5-c",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/-mg-2000x1333.jpg",
-            "bgColor": "#7e9b9f",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "AIR! AIR! AIR! AIRPLANES!",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>"
-        },
         {
           "_tags": [
             "Theme"
@@ -693,17 +1198,19 @@
           "_name": "footer1",
           "_styles": {
             "P": {
-              "color": "#000000"
+              "color": "#000000",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
             }
           },
-          "_anchor": "footer1-9",
+          "_anchor": "footer1-3",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#c6cac4",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -712,158 +1219,70 @@
           "text": "Copyright (c) 2016 Benedetto Criel."
         },
         {
-          "_inherit": "menu",
           "_tags": [
             "Theme"
           ],
+          "_name": "header2",
           "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
+            ".mbr-section-title": {
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-size": "24px"
+              "font-size": "100px",
+              "color": "#000000"
             },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "font-family": "'Raleway', sans-serif"
-            },
-            ".link": {
-              "font-size": "1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#acb2a9"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#bec3bc!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#c6cac4"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            },
-            ".btn": {
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            ".mbr-section-title I": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "font-size": "100px",
+              "color": "#c1c1c1"
             }
           },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-a",
+          "_anchor": "header2-e",
           "_params": {
-            "bgColor": "#c6cac4",
-            "fontSize": "1",
-            "fontName": {
-              "name": "Raleway",
-              "url": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "css": "'Raleway', sans-serif"
-            },
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logos2-90x128-2.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Benedetto Criel</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"page1.html#header2-6\">Over</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"page1.html#gallery4-d\">Werk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"page1.html#contacts1-8\">Contact</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_styles": {
-            "P": {
-              "color": "#000000",
-              "font-size": "15px"
-            },
-            "STRONG": {
-              "color": "#000000",
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "19px"
-            },
-            "I": {
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
-            }
-          },
-          "_anchor": "contacts1-b",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
+            "imageSize": "42",
             "parallax": true,
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/treinblauw-2000x1171.png",
-            "bgColor": "#ffffff",
+            "bgColor": "#2e2e2e",
             "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#ffffff"
+            "overlayOpacity": "0.9",
+            "overlayColor": "#ffffff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": false
           },
-          "logo": {
+          "media": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/logos2-128x181.png",
-              "width": 128,
               "active": true,
-              "link": "#top",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/logos-1400x1648.png",
+              "link": "page1.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
             },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "class": "mbr-iconfont mbr-iconfont-header2",
               "link": "",
-              "size": 0
+              "size": 250
             }
           },
-          "text1": "<i>Address</i><br>Criel Benedetto<br>Rabotstraat 24, 9940 Evergem<br>",
-          "text2": "<i>Contacts</i><br>\nEmail: benedetto.criel@luca-arts.be Phone: +05697446585<br><br>",
-          "text3": "<p><i>Links</i><br><a href=\"https://www.instagram.com/benedetto_criel/\" target=\"_blank\" class=\"text-black\">Instagram&nbsp;</a><br><a href=\"http://scumandvillainy.deviantart.com/\" target=\"_blank\" class=\"text-black\">Deviantart</a></p><p><a href=\"https://www.facebook.com/benedetto.criel\" target=\"_blank\" class=\"text-black\">Facebook</a></p>"
+          "title": "<i style=\"font-weight: normal;\">Benedetto Criel</i>",
+          "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         }
       ]
     }
