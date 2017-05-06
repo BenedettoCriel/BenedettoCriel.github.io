@@ -14,6 +14,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -438,6 +439,10 @@ h6,
   font-family: 'Raleway', sans-serif;
   font-size: 100px;
 }
+#header5-5 .mbr-section-lead SPAN {
+  color: #5a5757;
+  font-family: 'Raleway', sans-serif;
+}
 #ext_menu-7 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -607,6 +612,7 @@ h6,
 }
 #contacts1-b I {
   font-family: 'Raleway', sans-serif;
+  color: #636161;
 }
 
 
@@ -880,6 +886,7 @@ h6,
 }
 #contacts1-k I {
   font-family: 'Raleway', sans-serif;
+  color: #636161;
 }
 
 
