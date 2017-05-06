@@ -516,9 +516,13 @@ h6,
 #header5-c .mbr-section-title {
   color: #efefef;
   font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 #header5-c .mbr-section-lead {
   color: #9c9a9a;
+}
+#header5-c .mbr-section-title SPAN {
+  font-size: 72px;
 }
 #footer1-9 P {
   color: #000000;
@@ -611,6 +615,7 @@ h6,
 
 
 
+
 #footer1-f P {
   color: #000000;
   font-family: 'Roboto Condensed', sans-serif;
@@ -694,11 +699,15 @@ h6,
   font-size: 84px;
 }
 #header2-i .mbr-section-title I {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
 }
 #header2-i .btn {
   font-family: 'Raleway', sans-serif;
+}
+#header2-i .mbr-section-title SPAN {
+  font-family: 'Slabo 27px', serif;
+  color: #c1c1c1;
 }
 
 
@@ -875,6 +884,7 @@ h6,
 
 
 
+
 #footer1-3 P {
   color: #000000;
   font-family: 'Roboto Condensed', sans-serif;
@@ -888,4 +898,9 @@ h6,
   font-family: 'Slabo 27px', serif;
   font-size: 100px;
   color: #c1c1c1;
+}
+#header2-e .mbr-section-title SPAN {
+  font-size: 84px;
+  color: #c1c1c1;
+  font-family: 'Raleway', sans-serif;
 }

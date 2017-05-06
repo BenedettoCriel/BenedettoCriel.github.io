@@ -24,7 +24,7 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 24,
+    "uniqCompNum": 26,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -226,10 +226,14 @@
             ".mbr-section-title": {
               "color": "#efefef",
               "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "text-align": "center"
             },
             ".mbr-section-lead": {
               "color": "#9c9a9a"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "72px"
             }
           },
           "_tags": [
@@ -248,15 +252,15 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#c1c1c1",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": false
           },
-          "title": "AIR! AIR! AIR! AIRPLANES!",
+          "title": "<span style=\"font-weight: normal;\">AIR! AIR! AIR! AIRPLANES</span><span style=\"font-weight: normal;\">!</span><br>the ultimate form of industry and elegance combined in one shape.",
           "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a>"
         },
@@ -596,13 +600,18 @@
               "font-size": "84px"
             },
             ".mbr-section-title I": {
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
               "text-align": "center"
             },
             ".btn": {
               "font-family": "'Raleway', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Slabo 27px', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
+              "color": "#c1c1c1"
             }
           },
           "_anchor": "header2-i",
@@ -648,7 +657,7 @@
               "size": 250
             }
           },
-          "title": "<i style=\"font-weight: normal;\">Over</i>:",
+          "title": "<span style=\"font-weight: normal;\">Over :</span>",
           "text": "Benedetto Criel (Gent, 1995°) leeft en werkt in Evergem Belzele.<br>Hij is afgestudeerd aan Sint-Lucas Secundair onderwijs en is momenteel student in Luca School of Arts.<br>Zijn werk is een zelfstudie naar het technische en constructief begrijpen van objecten. Het werk toont de dualiteit van het serieuze en het kinderlijke door imperfectie en een nonchalance toe te laten in het werk. De voornamelijkste thema’s die hij gebruikt is transport, Zee- en luchtvaart. De werken variëren van 2 tot 3 dimensionale werken waarbij papier karton de voornamelijkste materialen zijn.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Fascinatie Vliegtuigen</a>"
         }
@@ -1235,6 +1244,12 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Slabo+27px",
               "font-size": "100px",
               "color": "#c1c1c1"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "84px",
+              "color": "#c1c1c1",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_anchor": "header2-e",
@@ -1280,7 +1295,7 @@
               "size": 250
             }
           },
-          "title": "<i style=\"font-weight: normal;\">Benedetto Criel</i>",
+          "title": "<span style=\"font-weight: normal;\">Benedetto Criel</span>",
           "text": "Full screen intro with parallax image background and color overlay and a picture on right.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         }
