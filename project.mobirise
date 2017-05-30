@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Benedetto_Work_Overview1.2",
-    "currentPage": "index.html",
+    "currentPage": "Werk.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -827,173 +827,173 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mg-2000x840-800x336.jpg",
-                "image": "@PROJECT_PATH@/assets/images/-mg-2000x840.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "3 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bristol-dehavilland-dh-2000x1322-800x528-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bristol-dehavilland-dh-2000x1322-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "3 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bristolmopt-2000x893-800x357-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bristolmopt-2000x893-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/crashopt-2000x3581-800x1432-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/crashopt-2000x3581-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "3 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/webtankopt-2000x1240-800x496.jpg",
-                "image": "@PROJECT_PATH@/assets/images/webtankopt-2000x1240.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "3 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/chesspieceopt-2000x3000-800x1200.jpg",
-                "image": "@PROJECT_PATH@/assets/images/chesspieceopt-2000x3000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "3 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mg-2000x2635-800x1054-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/-mg-2000x2635-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bristolopt-2000x1434-800x573-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bristolopt-2000x1434-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/grafzepopt-2000x1125-800x450-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/grafzepopt-2000x1125-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kodakopt-2000x3522-800x1408-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/kodakopt-2000x3522-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/neuspotteropt-2000x4967-800x1986.jpg",
-                "image": "@PROJECT_PATH@/assets/images/neuspotteropt-2000x4967.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/pilotportopt-2000x2096-800x838.jpg",
-                "image": "@PROJECT_PATH@/assets/images/pilotportopt-2000x2096.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/renicourtopt-2000x2282-800x912.jpg",
-                "image": "@PROJECT_PATH@/assets/images/renicourtopt-2000x2282.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/treinblauwopt-2000x1171-800x468.jpg",
-                "image": "@PROJECT_PATH@/assets/images/treinblauwopt-2000x1171.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/treinroodopt-2000x1423-800x569.jpg",
-                "image": "@PROJECT_PATH@/assets/images/treinroodopt-2000x1423.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/zebhang-2000x1414-800x565.jpg",
-                "image": "@PROJECT_PATH@/assets/images/zebhang-2000x1414.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "2 Dimensionaal werk",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/zewwateropt-2000x1147-800x458-2.jpg",
-                "image": "@PROJECT_PATH@/assets/images/zewwateropt-2000x1147-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mg-7853-2000x840-800x336.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-mg-7853-2000x840.jpg",
                 "caption": "Type caption here",
                 "active": true
+              },
+              {
+                "tags": "3 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bristol-dehavilland-dh-1-2000x1322-800x528.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bristol-dehavilland-dh-1-2000x1322.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "3 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bristolmopt-1-2000x893-800x357.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bristolmopt-1-2000x893.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/crashopt-1-2000x3581-800x1432.jpg",
+                "image": "@PROJECT_PATH@/assets/images/crashopt-1-2000x3581.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "3 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webtankopt-2000x1241-800x496.jpg",
+                "image": "@PROJECT_PATH@/assets/images/webtankopt-2000x1241.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "3 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/chesspieceopt-2000x2999-800x1199.jpg",
+                "image": "@PROJECT_PATH@/assets/images/chesspieceopt-2000x2999.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "3 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mg-8458-2000x2635-800x1054.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-mg-8458-2000x2635.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bristolopt-1-2000x1434-800x573.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bristolopt-1-2000x1434.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/wp-20160903-15-16-48-pro-highreso-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wp-20160903-15-16-48-pro-highreso-2000x1125.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kodakopt-2000x3523-800x1409.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kodakopt-2000x3523.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/neuspotteropt-2000x4968-800x1987.jpg",
+                "image": "@PROJECT_PATH@/assets/images/neuspotteropt-2000x4968.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pilotportopt-1-2000x2096-800x838.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pilotportopt-1-2000x2096.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/renicourtopt-1-2000x2282-800x912.jpg",
+                "image": "@PROJECT_PATH@/assets/images/renicourtopt-1-2000x2282.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/treinblauwopt-1-2000x1171-800x468.jpg",
+                "image": "@PROJECT_PATH@/assets/images/treinblauwopt-1-2000x1171.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/treinroodopt-1-2000x1423-800x569.jpg",
+                "image": "@PROJECT_PATH@/assets/images/treinroodopt-1-2000x1423.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/zebhang-1-2000x1414-800x565.jpg",
+                "image": "@PROJECT_PATH@/assets/images/zebhang-1-2000x1414.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "2 Dimensionaal werk",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/zewwateropt-1-2000x1147-800x458.jpg",
+                "image": "@PROJECT_PATH@/assets/images/zewwateropt-1-2000x1147.jpg",
+                "caption": "Type caption here",
+                "active": false
               }
             ],
-            "spacing": "1",
+            "spacing": "3",
             "showText": false,
             "filter": true,
             "bgColor": "#ffffff",
