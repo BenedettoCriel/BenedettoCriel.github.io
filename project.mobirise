@@ -599,7 +599,7 @@
             ".mbr-section-text": {
               "color": "#000000",
               "font-size": "18px",
-              "text-align": "center"
+              "text-align": "right"
             },
             ".mbr-section-title": {
               "color": "#000000",
@@ -666,7 +666,7 @@
             }
           },
           "title": "<span style=\"font-weight: normal;\">Over :</span>",
-          "text": "Benedetto Criel (Gent, 1995°) leeft en werkt in Evergem Belzele.<br>Hij is afgestudeerd aan Sint-Lucas Secundair onderwijs en is momenteel student in Luca School of Arts.<br>Zijn werk is een zelfstudie naar het technische en constructief begrijpen van objecten. Het werk toont de dualiteit van het serieuze en het kinderlijke door imperfectie en een nonchalance toe te laten in het werk. De voornamelijkste thema’s die hij gebruikt is transport, Zee- en luchtvaart. De werken variëren van 2 tot 3 dimensionale werken waarbij papier karton de voornamelijkste materialen zijn.",
+          "text": "Benedetto Criel (Gent, 1995°) leeft en werkt in Evergem Belzele.<br>Afgestudeerd aan Sint-Lucas Secundair onderwijs en is momenteel student in Luca School of Arts.<br>Zijn werk is een zelfstudie naar het technische en constructief begrijpen van objecten. Het werk toont de dualiteit van het serieuze en het kinderlijke door imperfectie en een nonchalance toe te laten in het werk. De voornamelijkste thema’s die hij gebruikt is transport, zee- en luchtvaart. De werken variëren van 2 tot 3 dimensionale werken waarbij papier karton de voornamelijkste materialen zijn.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Fascinatie Vliegtuigen</a>"
         }
       ]
