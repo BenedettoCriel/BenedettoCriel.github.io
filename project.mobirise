@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Benedetto_Work_Overview1.2",
-    "currentPage": "index.html",
+    "currentPage": "Over.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -647,7 +647,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/wp-20170302-08-57-09-pro-2435-1400x2494.jpg",
+              "src": "@PROJECT_PATH@/assets/images/535c73b5-f82c-46b2-b622-0f65223e4eeb.jpg",
               "link": "",
               "alt": "",
               "title": "",
