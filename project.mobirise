@@ -40,7 +40,10 @@
     "versionFirst": "4.6.5",
     "uniqCompNum": 13,
     "versionPublish": "4.6.5",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
