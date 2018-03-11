@@ -1617,7 +1617,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-qKEMlegUNZ button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2012,7 +2012,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-qJPqUY4XuZ button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2401,7 +2401,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-qJPqUY4XuZ button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -3048,7 +3048,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qK8wWNsbDU {
-  padding-top: 90px;
+  padding-top: 45px;
   padding-bottom: 120px;
   background-color: #ffffff;
 }
@@ -3083,7 +3083,7 @@ body {
   background: transparent !important;
 }
 .cid-qK8wWNsbDU .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+  opacity: 0.3 !important;
 }
 .cid-qK8wWNsbDU .mbr-gallery-title {
   font-size: .9em;
@@ -3105,7 +3105,7 @@ body {
   position: absolute;
   background: #073b4c !important;
   background: linear-gradient(to left, #073b4c, #7f1933) !important;
-  opacity: 0.7;
+  opacity: 0.3;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
