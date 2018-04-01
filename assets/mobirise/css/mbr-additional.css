@@ -1699,11 +1699,31 @@ body {
 .cid-qMhmwydWGv .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-qMhnjUNbEG {
-  background-image: url("../../../assets/images/wp-20180129-09-47-40-pro-2000x1125.jpg");
+.cid-qNZvBkp6Uc {
+  background-image: url("../../../assets/images/wp-20180129-09-47-40-pro-2000x1126.jpg");
 }
-.cid-qMhnjUNbEG H1 {
-  color: #ffffff;
+.cid-qNZvBkp6Uc .media-container-row {
+  flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-qNZvBkp6Uc .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qNZvBkp6Uc .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-qNZvBkp6Uc .mbr-text {
+    text-align: center;
+  }
+}
+.cid-qNZvBkp6Uc H1 {
+  text-align: right;
 }
 .cid-qMhmwydWGv .navbar {
   padding: .5rem 0;
